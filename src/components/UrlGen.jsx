@@ -14,6 +14,9 @@ function UrlGen() {
     return (
       <>
         <QRCode value={`https://qrcode-taupe-chi.vercel.app/unMask/${encodedString}`} />
+        <br></br>
+        <br></br>
+        <QRCode value={`https://qrcode-taupe-chi.vercel.app/A/${encodedString}`} />
       </>
     )
   }
