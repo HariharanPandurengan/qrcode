@@ -1,6 +1,6 @@
 import './App.css'
-import UrlGen from './components/urlGen'
-import UrlUnmask from './components/urlUnmask'
+import UrlGen from './components/UrlGen'
+import UrlUnmask from './components/UrlUnmask'
 import { Routes,Route } from 'react-router-dom'
 
 function App() {
