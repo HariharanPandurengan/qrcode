@@ -13,7 +13,7 @@ function UrlGen() {
     const encodedString = encodeURIComponent(encryptedString);
     return (
       <>
-        <QRCode value={`http://localhost:5173/unMask/${encodedString}`} />
+        <QRCode value={`https://qrcode-taupe-chi.vercel.app/unMask/${encodedString}`} />
       </>
     )
   }
